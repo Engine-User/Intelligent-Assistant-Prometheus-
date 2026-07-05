@@ -1,8 +1,7 @@
 # Prometheus — AI Chatbot Assistant
 <img width="1912" height="845" alt="image" src="https://github.com/user-attachments/assets/716609a1-cf2b-4ad0-9356-c77e3f72ca86" />
 
-**Prometheus** is a clean & lightweight **Streamlit** chatbot application powered by the **Dify AI API**. It features a neon-green cyberpunk UI, animated Lottie graphics, and a simple two-page navigation system for chatting and learning about the assistant.
-
+**Prometheus** is a clean & lightweight **Streamlit** chatbot application powered by the **Dify AI API** and uses GroqChat (llama 3.3) and Streamlit.
 ---
 
 ## Features
@@ -12,11 +11,6 @@
 - **Conversation Memory** – Maintains `conversation_id` across messages in a session for contextual follow-ups.
 - **Message History** – Displays the full user/assistant chat history using Streamlit's native chat components.
 - **Fast Inference Speeds** – Probably the quickest AI API responses in terms of Chat replies.
-
-### Sidebar Navigation
-- Two custom buttons: **Chat** and **About**.
-- Persistent page state via `st.session_state`.
-- Sidebar branding: "Your Intelligent Assistant" / "Made by Engineer".
 <img width="1456" height="665" alt="image" src="https://github.com/user-attachments/assets/6e13bc51-f4b6-401e-98f5-d455a5f703d2" />
 
 ---
@@ -37,7 +31,7 @@
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1. **Navigate to the project root folder:**
 
@@ -81,15 +75,9 @@ streamlit run chat_app.py
 
 Then open your browser at `http://localhost:8501`.
 
-### Workflow
-1. Click **Chat** in the sidebar to start a conversation.
-2. Type your question in the input box at the bottom.
-3. Prometheus will query the Dify API and display the response.
-4. Click **About** in the sidebar to learn more about the assistant.
-
 ---
 
-## 🔧 Configuration
+## Configuration
 
 | Variable | Description |
 |----------|-------------|
