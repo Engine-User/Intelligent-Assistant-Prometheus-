@@ -1,7 +1,7 @@
 # Prometheus — AI Chatbot Assistant
 <img width="1912" height="845" alt="image" src="https://github.com/user-attachments/assets/716609a1-cf2b-4ad0-9356-c77e3f72ca86" />
 
-**Prometheus** is a clean & lightweight **Streamlit** chatbot application powered by the **Dify AI API** and uses GroqChat (llama 3.3) and Streamlit.
+**Prometheus** is a clean & lightweight **Streamlit** chatbot application powered by the **Dify AI API** and uses GroqChat (llama 3.3) with Streamlit.
 ---
 
 ## Features
